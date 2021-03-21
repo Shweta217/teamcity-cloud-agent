@@ -1,1 +1,1 @@
-write-output "hello"
+write-output "hello, learning cloud agent"
