@@ -39,20 +39,13 @@
         </configuration>
       </plugin>
     </plugins>	
-	<extensions>
-    <extension>
-      <groupId>com.github.platform-team</groupId>
-      <artifactId>aws-maven</artifactId>
-      <version>6.0.0</version>
-    </extension>
-  </extensions>
-  <extensions>
+    <extensions>
       <extension>
           <groupId>org.kuali.maven.wagons</groupId>
           <artifactId>maven-s3-wagon</artifactId>
           <version>1.2.1</version>
         </extension>
-   </extensions>
+     </extensions>
   </build>
   <distributionManagement>
   <snapshotRepository>
