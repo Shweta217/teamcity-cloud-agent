@@ -6,11 +6,11 @@
   <packaging>war</packaging>
   <distributionManagement>
     <snapshotRepository>
-        <id>my-repo-bucket-snapshot</id>
+        <id>tc-repo</id>
         <url>s3://tc-project/snapshot/</url>
     </snapshotRepository>
     <repository>
-        <id>my-repo-bucket-release</id>
+        <id>tc-repo</id>
         <url>s3://tc-project/release/</url>
     </repository>
 </distributionManagement>
