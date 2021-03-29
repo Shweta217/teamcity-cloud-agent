@@ -5,9 +5,13 @@
   <version>0.0.1-SNAPSHOT</version>
   <packaging>war</packaging>
   <distributionManagement>
+    <snapshotRepository>
+        <id>my-repo-bucket-snapshot</id>
+        <url>s3://tc-project/snapshot/</url>
+    </snapshotRepository>
     <repository>
-        <id>tc-repo</id>
-        <url>https://maven.pkg.jetbrains.space/mycompany/p/projectkey/my-maven-repo</url>
+        <id>my-repo-bucket-release</id>
+        <url>s3://tc-project/release/</url>
     </repository>
 </distributionManagement>
   <name>Hello World Java EE</name>
