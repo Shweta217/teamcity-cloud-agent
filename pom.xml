@@ -49,12 +49,12 @@
   </build>
   <distributionManagement>
   <snapshotRepository>
-    <id>tc-project</id>
-    <url>s3://tc-project/snapshot</url>
+    <id>maven-repo-tutorial.asimio.net</id>
+    <url>s3://maven-repo-tutorial.asimio.net/snapshot</url>
   </snapshotRepository>
   <repository>
-    <id>tc-project</id>
-    <url>s3://tc-project/release</url>
+    <id>maven-repo-tutorial.asimio.net</id>
+    <url>s3://maven-repo-tutorial.asimio.net/release</url>
   </repository>
 </distributionManagement>  
 </project>
