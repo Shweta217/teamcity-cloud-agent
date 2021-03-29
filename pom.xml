@@ -46,15 +46,22 @@
       <version>6.0.0</version>
     </extension>
   </extensions>
+  <extensions>
+      <extension>
+          <groupId>org.kuali.maven.wagons</groupId>
+          <artifactId>maven-s3-wagon</artifactId>
+          <version>1.2.1</version>
+        </extension>
+   </extensions>
   </build>
   <distributionManagement>
   <snapshotRepository>
-    <id>tc-project</id>
-    <url>s3://tc-project/snapshot</url>
+    <id>tc-maven</id>
+    <url>s3://tc-maven/snapshot</url>
   </snapshotRepository>
   <repository>
-    <id>tc-project</id>
-    <url>s3://tc-project/release</url>
+    <id>tc-maven</id>
+    <url>s3://tc-maven/release/</url>
   </repository>
 </distributionManagement>  
 </project>
