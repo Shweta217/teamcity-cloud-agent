@@ -6,12 +6,12 @@
   <packaging>war</packaging>
   <distributionManagement>
     <snapshotRepository>
-        <id>tc-repo</id>
-        <url>s3://tc-project/snapshot/</url>
+        <id>snapshots</id>
+        <url>s3://tc-project/snapshot/tc-repo/</url>
     </snapshotRepository>
     <repository>
-        <id>tc-repo</id>
-        <url>s3://tc-project/release/</url>
+        <id>releases</id>
+        <url>s3://tc-project/release/tc-repo/</url>
     </repository>
 </distributionManagement>
   <name>Hello World Java EE</name>
