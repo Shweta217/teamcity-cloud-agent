@@ -7,11 +7,11 @@
   <distributionManagement>
     <snapshotRepository>
         <id>snapshots</id>
-        <url>s3://tc-project/snapshot/tc-repo/</url>
+        <url>s3://tc-project/snapshot/5399225855c42d1e/</url>
     </snapshotRepository>
     <repository>
         <id>releases</id>
-        <url>s3://tc-project/release/tc-repo/</url>
+        <url>s3://tc-project/release/5399225855c42d1e/</url>
     </repository>
 </distributionManagement>
   <name>Hello World Java EE</name>
