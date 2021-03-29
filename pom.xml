@@ -50,7 +50,7 @@
   <distributionManagement>
   <snapshotRepository>
     <id>tc-maven</id>
-    <url>s3://tc-maven/snapshot</url>
+    <url>s3://tc-maven/snapshot/</url>
   </snapshotRepository>
   <repository>
     <id>tc-maven</id>
