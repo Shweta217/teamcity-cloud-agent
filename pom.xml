@@ -53,7 +53,7 @@
     <url>s3://tc-project/snapshot</url>
   </snapshotRepository>
   <repository>
-    <id>maven-repo-tutorial.asimio.net</id>
+    <id>tc-project</id>
     <url>s3://tc-project/release</url>
   </repository>
 </distributionManagement>  
